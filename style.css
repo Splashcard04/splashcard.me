@@ -1,0 +1,184 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(70deg, rgb(13, 102, 95),  rgb(58, 58, 58));
+}
+
+.text {
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    top: -40px;
+    color: rgb(0, 114, 122);
+    font-family: 'Franklin Gothic Medium';
+    transition: letter-spacing 2s;
+}
+
+.text:hover {
+    letter-spacing: 50px;
+}
+
+.logo {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  left: 20px;
+  top: -75px;
+  transition: rotate 360
+}
+.name {
+  position: relative;
+  left: 125px;
+  top: -225px;
+  color: white;
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium'
+}
+
+.note {
+  position: relative;
+  left: 75px;
+  top: -140px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer
+}
+
+.music {
+  color: white;
+  position: relative;
+  left: 125px;
+  top: -195px;
+  font-size: 25px;
+  cursor: pointer
+}
+
+.bloq {
+  position: relative;
+  left: 75px;
+  top: -200px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.BS {
+  color: white;
+  position: relative;
+  left: 135px;
+  top: -265px;
+  cursor: pointer;
+  font-size: 25px
+}
+
+.twitch {
+  position: relative;
+  left: 75px;
+  top: -260px;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.tw {
+  color: white;
+  position: relative;
+  left: 135px;
+  top: -330px;
+  cursor: pointer;
+  font-size: 25px
+}
+
+.youtube {
+  color: white;
+  position: relative;
+  left: 135px;
+  top: -452px;
+  cursor: pointer;
+  font-size: 25px
+}
+
+.yt {
+  position: relative;
+  left: 40px;
+  top: -360px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.spoti {
+    position: relative;
+    left: 33%;
+    top: -890px;
+    width: 150px;
+    height: 150px;
+}
+
+.spotify {
+    position: relative;
+    /*left: 790px;*/
+    left: 43%;
+    top: -1025px;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium'
+}
+
+.bleeding {
+    border-radius:12px;
+    position: relative;
+    /*left: 440px;*/
+    left: 30.4%;
+    top: -950px;
+}
+
+
+.time {
+    border-radius:12px;
+    position: relative;
+    /*left: 162px;*/
+    left: 10.1%;
+    top: -850px;
+}
+
+.better {
+    border-radius:12px;
+    position: relative;
+    left: -10.15%;
+    top: -750px;
+}
+
+.never {
+  border-radius:12px;
+  position: relative;
+  left: -30.4%;
+  top: -650px;
+}
+
+.truth {
+  border-radius:12px;
+  position: relative;
+  left: 30.2%;
+  top: -650px;
+}
+
+.about {
+  position: relative;
+  left: 75%;
+  top: -1340px;
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium';
+  cursor: pointer;
+}
+
+.modImg {
+  position: relative;
+  left: 65%;
+  top: -1485px;
+  width: 175px;
+  height: 175px;
+  cursor: pointer;
+}

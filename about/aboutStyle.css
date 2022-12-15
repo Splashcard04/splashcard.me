@@ -1,0 +1,56 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(70deg, rgb(13, 102, 95),  rgb(58, 58, 58));
+}
+
+.Title {
+    position: relative;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    top: -100px;
+    transition: letter-spacing 2s;
+}
+.Title:hover {
+    letter-spacing: 50px;
+}
+
+.base {
+    cursor: pointer;
+    position: relative;
+    color: rgba(128, 128, 128, 0.541);
+    left: 50px;
+    top: -250px;
+    font-size: 20px;
+}
+
+.base2 {
+    cursor: pointer;
+    position: relative;
+    color: rgba(128, 128, 128, 0.541);
+    left: 1700px;
+    top: -280px;
+    font-size: 20px;
+}
+
+.about {
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -175px;
+    left: 50px
+}
+
+.text2 {
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: -175px;
+    left: 50px
+}
