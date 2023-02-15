@@ -1,184 +1,182 @@
 body {
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(70deg, rgb(13, 102, 95),  rgb(58, 58, 58));
+    background-image: linear-gradient(70deg, rgb(0, 65, 45), rgb(0, 110, 138));
+}
+  
+  .maintext {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: fixed;
+    top: 100px;
+    width: 50%;
+    height: 500px;
+    left: 70px;
+    transition: scale 1s;
+  }
+
+  .maintext:hover {
+    scale: 105%
+  }
+  
+.exp {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    position: fixed;
+    top: 450px;
+    width: 50%;
+    height: 500px;
+    left: 70px;
+    transition: scale 1s;
 }
 
-.text {
-    position: relative;
-    display: block;
-    text-align: center;
-    font-size: 50px;
-    top: -40px;
-    color: rgb(0, 114, 122);
-    font-family: 'Franklin Gothic Medium';
-    transition: letter-spacing 2s;
+.exp:hover {
+    scale: 105%
 }
 
-.text:hover {
-    letter-spacing: 50px;
+  .back {
+    top: 20px;
+    color: rgb(201, 201, 201);
+    background-color: rgb(32, 32, 32);
+    height: 900px;
+    width: 550px;
+    border-radius: 30px;
+    position: fixed;
+    right: 30px
+  }
+
+
+.img {
+    position: fixed;
+    top: 150px;
+    right: 185px;
+    width: 250;
+    height: 250;
+    border-radius: 120px;
 }
 
-.logo {
-  position: relative;
-  height: 150px;
-  width: 150px;
-  left: 20px;
-  top: -75px;
-  transition: rotate 360
-}
 .name {
-  position: relative;
-  left: 125px;
-  top: -225px;
-  color: white;
-  font-size: 35px;
-  font-family: 'Franklin Gothic Medium'
+    position: fixed;
+    top: 370px;
+    right: 170px;
+    color:rgb(255, 255, 255);
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: letter-spacing 1s, right 1s
 }
 
-.note {
-  position: relative;
-  left: 75px;
-  top: -140px;
-  height: 40px;
-  width: 40px;
-  cursor: pointer
+.name:hover {
+    letter-spacing: 10px;
+    right: 140px
+}
+
+.projects {
+    position: fixed;
+    background-color: rgb(59, 182, 121);
+    width: 450px;
+    height: 75px;
+    font-size: 50px;
+    border-radius: 50px;
+    top: 500px;
+    right: 85px;
+    animation: buttonScale 0.5s;
+    transition: scale 0.5s, borderColor 0.5s;
+    cursor: pointer;
+}
+
+.projects:hover {
+    scale: 120%;
+    border-color: red;
+}
+
+.git {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 415px;
+    bottom: 373px;
 }
 
 .music {
-  color: white;
-  position: relative;
-  left: 125px;
-  top: -195px;
-  font-size: 25px;
-  cursor: pointer
+    position: fixed;
+    background-color: rgb(55, 101, 253);
+    width: 450px;
+    height: 75px;
+    font-size: 50px;
+    border-radius: 50px;
+    top: 600px;
+    right: 85px;
+    animation: buttonScale 0.5s;
+    transition: scale 0.5s, borderColor 0.5s;
+    cursor: pointer;
 }
 
-.bloq {
-  position: relative;
-  left: 75px;
-  top: -200px;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
+.music:hover {
+    scale: 120%;
+    border-color: rgb(255, 230, 0);
 }
 
-.BS {
-  color: white;
-  position: relative;
-  left: 135px;
-  top: -265px;
-  cursor: pointer;
-  font-size: 25px
+.noteimg {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 415px;
+    bottom: 275px;
 }
 
 .twitch {
-  position: relative;
-  left: 75px;
-  top: -260px;
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
+    position: fixed;
+    background-color: rgb(152, 27, 255);
+    width: 450px;
+    height: 75px;
+    font-size: 50px;
+    border-radius: 50px;
+    top: 700px;
+    right: 85px;
+    animation: buttonScale 0.5s;
+    transition: scale 0.5s, borderColor 0.5s;
+    cursor: pointer;
+}
+
+.twitch:hover {
+    scale: 120%;
+    border-color: rgb(255, 255, 255);
 }
 
 .tw {
-  color: white;
-  position: relative;
-  left: 135px;
-  top: -330px;
-  cursor: pointer;
-  font-size: 25px
+    position: fixed;
+    width: 70px;
+    height: 60px;
+    right: 415px;
+    bottom: 172px;
 }
 
-.youtube {
-  color: white;
-  position: relative;
-  left: 135px;
-  top: -452px;
-  cursor: pointer;
-  font-size: 25px
+.discord {
+    position: fixed;
+    background-color: rgb(177, 51, 194);
+    width: 450px;
+    height: 75px;
+    font-size: 50px;
+    border-radius: 50px;
+    top: 800px;
+    right: 85px;
+    animation: buttonScale 0.5s;
+    transition: scale 0.5s, borderColor 0.5s;
+    cursor: pointer;
 }
 
-.yt {
-  position: relative;
-  left: 40px;
-  top: -360px;
-  height: 100px;
-  width: 100px;
-  cursor: pointer;
+.discord:hover {
+    scale: 120%;
+    border-color: rgb(0, 238, 255);
 }
 
-.spoti {
-    position: relative;
-    left: 33%;
-    top: -890px;
-    width: 150px;
-    height: 150px;
-}
-
-.spotify {
-    position: relative;
-    /*left: 790px;*/
-    left: 43%;
-    top: -1025px;
-    color: rgb(255, 255, 255);
-    font-size: 35px;
-    font-family: 'Franklin Gothic Medium'
-}
-
-.bleeding {
-    border-radius:12px;
-    position: relative;
-    /*left: 440px;*/
-    left: 30.4%;
-    top: -950px;
-}
-
-
-.time {
-    border-radius:12px;
-    position: relative;
-    /*left: 162px;*/
-    left: 10.1%;
-    top: -850px;
-}
-
-.better {
-    border-radius:12px;
-    position: relative;
-    left: -10.15%;
-    top: -750px;
-}
-
-.never {
-  border-radius:12px;
-  position: relative;
-  left: -30.4%;
-  top: -650px;
-}
-
-.truth {
-  border-radius:12px;
-  position: relative;
-  left: 30.2%;
-  top: -650px;
-}
-
-.about {
-  position: relative;
-  left: 75%;
-  top: -1340px;
-  color: rgb(255, 255, 255);
-  font-size: 35px;
-  font-family: 'Franklin Gothic Medium';
-  cursor: pointer;
-}
-
-.modImg {
-  position: relative;
-  left: 65%;
-  top: -1485px;
-  width: 175px;
-  height: 175px;
-  cursor: pointer;
+.di {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    right: 440px;
+    bottom: 70px;
 }
