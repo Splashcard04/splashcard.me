@@ -1,8 +1,8 @@
 body {
     background-image: linear-gradient(70deg, rgb(0, 65, 45), rgb(0, 110, 138));
 }
-
-    .maintext {
+  
+  .maintext {
     color: white;
     font-size: 30px;
     letter-spacing: 2px;
@@ -39,12 +39,19 @@ body {
   .back {
     top: 20px;
     color: rgb(201, 201, 201);
-    background-color: rgb(32, 32, 32);
+    background-image: linear-gradient(-70deg, rgb(3, 112, 112), rgb(151, 31, 175));
     height: 900px;
     width: 550px;
     border-radius: 30px;
     position: fixed;
-    right: 30px
+    right: 30px;
+    transition: 0.5s;
+  }
+
+  .back:hover {
+    background-position: right center; 
+    scale: 103%;
+    border-color: grey;
   }
 
 
@@ -55,6 +62,11 @@ body {
     width: 250;
     height: 250;
     border-radius: 120px;
+    transition: 1s;
+}
+
+.img:hover {
+    scale: 120%;
 }
 
 .name {
@@ -75,7 +87,7 @@ body {
 
 .projects {
     position: fixed;
-    background-color: rgb(59, 182, 121);
+    background-image: linear-gradient(-70deg, rgb(40, 191, 236), rgb(0, 107, 179));;
     width: 450px;
     height: 75px;
     font-size: 50px;
@@ -83,12 +95,12 @@ body {
     top: 500px;
     right: 85px;
     animation: buttonScale 0.5s;
-    transition: scale 0.5s, borderColor 0.5s;
+    transition: scale 1s, borderColor 1s;
     cursor: pointer;
 }
 
 .projects:hover {
-    scale: 120%;
+    scale: 110%;
     border-color: red;
 }
 
@@ -102,7 +114,7 @@ body {
 
 .music {
     position: fixed;
-    background-color: rgb(55, 101, 253);
+    background-image: linear-gradient(-70deg, rgb(21, 255, 52), rgb(79, 119, 27));
     width: 450px;
     height: 75px;
     font-size: 50px;
@@ -110,12 +122,12 @@ body {
     top: 600px;
     right: 85px;
     animation: buttonScale 0.5s;
-    transition: scale 0.5s, borderColor 0.5s;
+    transition: scale 1s, borderColor 1s;
     cursor: pointer;
 }
 
 .music:hover {
-    scale: 120%;
+    scale: 110%;
     border-color: rgb(255, 230, 0);
 }
 
@@ -129,7 +141,7 @@ body {
 
 .twitch {
     position: fixed;
-    background-color: rgb(152, 27, 255);
+    background-image: linear-gradient(-70deg, rgb(110, 0, 173), rgb(180, 0, 224));
     width: 450px;
     height: 75px;
     font-size: 50px;
@@ -137,12 +149,12 @@ body {
     top: 700px;
     right: 85px;
     animation: buttonScale 0.5s;
-    transition: scale 0.5s, borderColor 0.5s;
+    transition: scale 1s, borderColor 1s;
     cursor: pointer;
 }
 
 .twitch:hover {
-    scale: 120%;
+    scale: 110%;
     border-color: rgb(255, 255, 255);
 }
 
@@ -156,7 +168,7 @@ body {
 
 .discord {
     position: fixed;
-    background-color: rgb(177, 51, 194);
+    background-image: linear-gradient(-70deg, rgb(255, 112, 224),rgb(216, 2, 102));
     width: 450px;
     height: 75px;
     font-size: 50px;
@@ -164,12 +176,12 @@ body {
     top: 800px;
     right: 85px;
     animation: buttonScale 0.5s;
-    transition: scale 0.5s, borderColor 0.5s;
+    transition: scale 1s, borderColor 1s;
     cursor: pointer;
 }
 
 .discord:hover {
-    scale: 120%;
+    scale: 110%;
     border-color: rgb(0, 238, 255);
 }
 
@@ -180,6 +192,3 @@ body {
     right: 440px;
     bottom: 70px;
 }
-
-
-  
