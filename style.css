@@ -163,13 +163,13 @@ body {
 }
 
 #line {
-    font-size: 22px;
+    font-size: 23px;
     color: #cecece;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.7px;
     transition: letter-spacing 1s, scale 1s;
     text-indent: 5%;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 .songs {
