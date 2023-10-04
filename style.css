@@ -169,6 +169,7 @@ body {
     letter-spacing: 0.5px;
     transition: letter-spacing 1s, scale 1s;
     text-indent: 5%;
+    line-height: 1.5;
 }
 
 .songs {
