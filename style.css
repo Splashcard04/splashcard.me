@@ -188,10 +188,10 @@ body {
     transition: letter-spacing 1s, scale 1s;
 }
 
-#song1 {
+#song1, #song2, #song3, #song4 {
     transition: scale 1s;
 }
 
-#song1:hover {
+#song1:hover, #song2:hover, #song3:hover, #song4:hover {
     scale: 104%
 }
