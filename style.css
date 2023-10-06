@@ -187,3 +187,11 @@ body {
     letter-spacing: 0.5px;
     transition: letter-spacing 1s, scale 1s;
 }
+
+#song1 {
+    transition: scale 1s;
+}
+
+#song1:hover {
+    scale: 104%
+}
