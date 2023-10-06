@@ -188,6 +188,11 @@ body {
     transition: letter-spacing 1s, scale 1s;
 }
 
+#titl:hover {
+    letter-spacing: 2px;
+    scale: 102%;
+}
+
 #song1, #song2, #song3, #song4 {
     transition: scale 1s;
 }
